@@ -1,4 +1,3 @@
-import SectionTitle from "@/components/Common/SectionTitle";
 import Image from "next/image";
 import { Metadata } from "next";
 
