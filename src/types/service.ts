@@ -4,6 +4,6 @@
     image: string;
     title: string;
     paragraph: string;
-    path?: string;
+    path: string;
   };
   

@@ -1,9 +1,8 @@
 export type Campaign = {
-  id: string;
+  id: number;
   category: string;
   title: string;
   description: string;
   buttonText: string;
   buttonLink: string;
-  price?: string;
 };

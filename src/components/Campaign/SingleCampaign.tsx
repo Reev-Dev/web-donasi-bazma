@@ -1,7 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import { Campaign } from "@/types/campaign";
 
-const SingleCampaign = ({ campaign }) => {
+interface SingleCampaignProps {
+  campaign: Campaign;
+}
+
+const SingleCampaign: React.FC<SingleCampaignProps> = ({ campaign }) => {
   return (
     <div className="bg-white shadow-md rounded-lg overflow-hidden">
       {/* Gambar (Placeholder untuk cover) */}
