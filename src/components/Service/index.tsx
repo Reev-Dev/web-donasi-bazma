@@ -1,4 +1,3 @@
-import SectionTitle from "../Common/SectionTitle";
 import SingleService from "./SingleService";
 import serviceData from "./ServiceData";
 

@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import Background from "./../../../public/bg-footer-2.jpg";
 
 const Footer = () => {
   return (

@@ -25,7 +25,7 @@ const SingleTestimonial = ({
           ))}
         </div>
         <p className="mb-8 pb-8 text-base leading-relaxed text-body-color">
-          "{content}"
+          &quot;{content}&quot;
         </p>
         <div className="flex border-t border-body-color border-opacity-10 pt-8 align-center">
           <div className="relative mr-4 h-[50px] w-[50px] overflow-hidden rounded-full">

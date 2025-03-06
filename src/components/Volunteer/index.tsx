@@ -1,13 +1,14 @@
-import SectionTitle from "../Common/SectionTitle";
+import Image from "next/image";
 
 const Volunteer = () => {
   return (
     <section className="container relative overflow-hidden rounded-lg shadow-lg mx-auto my-16">
       {/* Background Image */}
-      <img
-        alt="Volunteer"
+      <Image
         src="/Cover-image.webp"
-        className="absolute inset-0 h-full w-full object-cover"
+        alt="Cover Image"
+        layout="fill"
+        objectFit="cover"
       />
 
       <div className="absolute inset-0 bg-gradient-to-b from-blue-700/80 to-green-600/80"></div>

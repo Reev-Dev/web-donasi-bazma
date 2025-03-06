@@ -1,11 +1,9 @@
 "use client";
 
-import { useTheme } from "next-themes";
 import Image from "next/image";
 import HeroImage from "./../../../public/hero.png";
 
 const Hero = () => {
-  const { theme } = useTheme();
 
   return (
     <section className="py-32 md:py-40 lg:py-48 bg-gray-100">

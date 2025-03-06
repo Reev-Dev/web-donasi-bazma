@@ -1,14 +1,17 @@
 import React from "react";
+import Image from "next/image";
 
 const SingleCampaign = ({ campaign }) => {
   return (
     <div className="bg-white shadow-md rounded-lg overflow-hidden">
       {/* Gambar (Placeholder untuk cover) */}
       <div className="relative">
-        <img
-          src="/Bazma.png" // Ganti dengan gambar asli
-          alt={campaign.title}
-          className="w-full h-40 object-cover"
+        <Image
+          src="/Bazma.png"
+          alt="Cover Image"
+          width={400}
+          height={160}
+          objectFit="cover"
         />
       </div>
 
