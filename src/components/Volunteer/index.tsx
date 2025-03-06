@@ -5,7 +5,7 @@ const Volunteer = () => {
     <section className="container relative overflow-hidden rounded-lg shadow-lg mx-auto my-16">
       {/* Background Image */}
       <Image
-        src="/Cover-image.webp"
+        src="/Cover-Image.webp"
         alt="Cover Image"
         layout="fill"
         objectFit="cover"
